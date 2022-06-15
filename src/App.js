@@ -1,3 +1,9 @@
+
+import MainHeader from './components/MainHeader'
+import Bar from './components/Bar/Bar'
+import AboutUs from './components/AboutUs/AboutUs';
+
+import Post from './components/Posts/Post';
 import React, {Component } from 'react';
 import './App.css';
 import { Route, Routes, Switch, Redirect, Link } from 'react-router-dom';
@@ -42,6 +48,12 @@ export default class App extends Component {
     // const [isOpen, setIsOpen] = useState(false)
     return (
       <div className="App">
+        <MainHeader/>
+        {/* <Post/> */}
+        {/* <Bar/> */}
+        <AboutUs/>
+        
+      
         <div>
           <button> open modal/auth</button>
           <Link to="/auth">go to auth</Link>
