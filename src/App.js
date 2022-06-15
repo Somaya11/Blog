@@ -60,11 +60,18 @@ export default class App extends Component {
         </Modal> */}
         </div>
         {/* {this.state.user ?  */}
+       {/*<Bar/>*/}
         <Routes>
           {/* this is where the single public route could go which would be the homepage */}
           <Route path="/auth" element={<AuthPage setUserInState={this.setUserInState} />}/>
           <Route element={<ProtectedRoutes />}>
-            {/* where the protect routes should go- about page route, article routes, ect. should only be able to see/make changes to  these if you are logged in (as admin) but log in to just see */ } 
+            {/* 
+            where the protect routes should go- about page route, article routes, ect. should only be able to see/make changes to  these if you are logged in (as admin) but log in to just see
+            <Route path="/" element={<Post/>} />
+            <Route path="/Articles" element={<Articles/>} />
+            <Route path="/SeiTips" element={<SeiTips/>} />
+            <Route path="*" element={<Navigate to="/" replace />}/>
+            */ } 
           </Route>
           {/* where the route paths will go  */}
         </Routes>
