@@ -5,7 +5,7 @@ export default function AboutUs() {
     <body className="aboutusBody">
       
       <div className="paragraph">
-      <h1 >About Us</h1>
+      <h1 className="h2">About Us</h1>
 
         <h3 className> Lorem ipsum dolor sit amet </h3>
           <article>
