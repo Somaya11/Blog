@@ -40,20 +40,20 @@ export default class App extends Component {
       <div className="App">
 
        <div>
-          <button> open modal/auth</button>
-          <Link to="/auth">go to auth</Link>
+{/*        
+          <Link to="/auth">go to auth</Link> */}
 
         {/* <Modal>
           modal test
 
         </Modal> */}
         </div>
-        {/* {this.state.user ?  */}
-        
+        {/* {this.state.user ? 
+         */}
         <Bar/> 
         <Routes>
-          {/* this is where the single public route could go which would be the homepage */}
-          <Route path="/auth" element={<AuthPage setUserInState={this.setUserInState} />}/>
+          this is where the single public route could go which would be the homepage
+          <Route path="/" element={<AuthPage setUserInState={this.setUserInState} />}/>
           <Route element={<ProtectedRoutes />}>
             
        
