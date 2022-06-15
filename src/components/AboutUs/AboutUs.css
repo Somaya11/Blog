@@ -1,0 +1,65 @@
+.aboutusBody{
+    position: absolute;
+    width: 1480px;
+    height: 2000px;
+    left: 20px;
+    top: 247px;
+
+    background: rgba(244, 244, 244, 0.8);
+}
+
+.paragraph{
+
+    position: absolute;
+    width: 1070px;
+    height: 1517px;
+    left: 190px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    text-align: left;
+    color: #171717;
+
+}
+
+.Rectangle7{
+    position: absolute;
+    width: 630px;
+    height: 321px;
+    left: 1px;
+    top: 657px;
+
+    background: #D9D9D9;
+}
+
+.Rectangle5{
+    position: absolute;
+    width: 420px;
+    height: 321px;
+    left: 655px;
+    top: 657px;
+
+    background: #D9D9D9;
+}
+
+.paragraph2{
+    position: absolute;
+    width: 1070px;
+    height: 1517px;
+    left: 190px;
+    top: 1050px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    text-align: left;
+    color: #171717;
+}

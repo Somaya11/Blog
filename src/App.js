@@ -1,8 +1,3 @@
-
-import MainHeader from './components/MainHeader'
-import Bar from './components/Bar/Bar'
-import AboutUs from './components/AboutUs/AboutUs';
-
 import Post from './components/Posts/Post';
 import React, {Component } from 'react';
 import './App.css';
@@ -11,6 +6,11 @@ import AuthPage  from './pages/AuthPage/AuthPage';
 import ProtectedRoutes from "./components/ProtectedRoutes";
 
 import Modal from './Modal' 
+
+
+import MainHeader from './components/MainHeader'
+import Bar from './components/Bar/Bar'
+import AboutUs from './components/AboutUs/AboutUs';
 
 
 export default class App extends Component {
@@ -40,10 +40,6 @@ export default class App extends Component {
   
   
   
-  
-  
-  
-  
   render() {
     // const [isOpen, setIsOpen] = useState(false)
     return (
@@ -52,7 +48,7 @@ export default class App extends Component {
         {/* <Post/> */}
         {/* <Bar/> */}
         <AboutUs/>
-        
+       
       
         <div>
           <button> open modal/auth</button>
@@ -77,6 +73,7 @@ export default class App extends Component {
         {/* } */}
       </div>
 
+      </div>
 
     )
   }
