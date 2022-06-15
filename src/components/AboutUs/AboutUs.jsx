@@ -1,3 +1,10 @@
+
+import React from 'react'
+
+export default function AboutUs() {
+  return (
+    <div>AboutUs</div>
+    
 import "./AboutUs.css"
 
 export default function AboutUs() {
@@ -55,5 +62,6 @@ export default function AboutUs() {
       
     </body>
     
+
   )
 }
