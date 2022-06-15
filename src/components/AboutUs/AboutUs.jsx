@@ -1,18 +1,12 @@
-
-import React from 'react'
-
-export default function AboutUs() {
-  return (
-    <div>AboutUs</div>
-    
 import "./AboutUs.css"
+import React from 'react'    
 
 export default function AboutUs() {
   return (
     <body className="aboutusBody">
       
       <div className="paragraph">
-      <h1 >About Us</h1>
+      <h1 className="h2">About Us</h1>
 
         <h3 className> Lorem ipsum dolor sit amet </h3>
           <article>

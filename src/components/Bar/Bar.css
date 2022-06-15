@@ -1,24 +1,40 @@
-.bar{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
+h1{
+    position: absolute;
+    height: 47px;
+    left: 631px;
+    top: 30px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 47px;
+    color: #171717;
 }
 
-.Articles{
-    margin-right: 20;
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+   
+  }
+
+.link{
+    list-style: none;
+    cursor:pointer;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    display: flex;
+    bottom: 100px;
+    text-decoration: none;
+    
+
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 40px;
-    /* identical to box height */
-
-    text-align: center;
-    cursor: pointer;
-
     color: #1E1E1E;
-
 }

@@ -1,17 +1,11 @@
-import Post from './components/Posts/Post';
-import React, {Component } from 'react';
-import './App.css';
-import { Route, Routes, Switch, Redirect, Link } from 'react-router-dom';
-import AuthPage  from './pages/AuthPage/AuthPage';
-import ProtectedRoutes from "./components/ProtectedRoutes";
-
-import Modal from './Modal' 
-
-
-import MainHeader from './components/MainHeader'
+import { Component } from 'react';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import Bar from './components/Bar/Bar'
 import AboutUs from './components/AboutUs/AboutUs';
-
+import './App.css';
+import Post from './components/Posts/Post';
+import Articles from './components/Articles/Articles';
+import SeiTips from './components/SeiTips/SeiTips';
 
 export default class App extends Component {
   
@@ -43,7 +37,9 @@ export default class App extends Component {
   render() {
     // const [isOpen, setIsOpen] = useState(false)
     return (
+   
       <div className="App">
+
         <MainHeader/>
         {/* <Post/> */}
         {/* <Bar/> */}
@@ -78,10 +74,9 @@ export default class App extends Component {
         {/* : */}
         
         {/* } */}
-      </div>
 
       </div>
-
+    
     )
   }
 }
