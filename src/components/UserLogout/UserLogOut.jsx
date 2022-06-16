@@ -1,5 +1,5 @@
 import React from 'react';
-import './UserLogOut.css'
+
 
 class UserLogOut extends React.Component {
   handleLogOut = () => {
@@ -10,8 +10,8 @@ class UserLogOut extends React.Component {
   render() {
   return (
       <div className='UserLogOut'>
-        <div>Name: ??</div>
-        <div>Email: ??</div>
+        <div>Name: {this.props.name}</div>
+        <div>Email: {this.props.email}</div>
         <button className="btn-sm" onClick={this.handleLogOut}>Logout</button>
       </div>
   );

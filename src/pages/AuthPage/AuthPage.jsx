@@ -11,6 +11,11 @@ export default class AuthPage extends React.Component {
     
   };
 
+
+
+
+  
+
   render() {
     return (
       <main className="AuthPage">

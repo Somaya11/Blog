@@ -1,7 +1,7 @@
 import './Bar.css'
 import { Link } from 'react-router-dom';
 
-export default function Bar() {
+export default function Bar(props) {
   return (
            
         <nav className='nav'>

@@ -1,9 +1,45 @@
-import "./Post.css"
+import "./Post.css";
+import React from 'react'
+import { Link } from 'react-router-dom';
+import UserLogOut from "../UserLogOut/UserLogOut"; 
 
-export default function Post() {
-  return (
-    <body className='body'>
-    <div>
+
+export default class Post extends React.Component {
+  
+  state = {
+    comments: []
+  }
+  
+  handleauth = async () => {
+    try {
+      let jwt = localStorage.getItem('token')
+      let fetchResponse = await fetch("/api/users", {
+        method: "POST",
+        headers: 
+          {"Content-Type": "application/json", 
+          'Authorization': 'Bearer ' + jwt},
+        body: JSON.stringifgy({comments: this.state.comments})
+      })
+      let serverResponse = await fetchResponse.json()
+      console.log("Success:", serverResponse)
+  
+      this.setState({comments: []})
+    } catch (err) {
+      console.log("Error:", err)
+    }
+  }
+  
+  async componentDidMount() {
+    try {
+      let fetchItemsResponse = await fetch('/api.users')
+    }  catch (err) {
+      console.log("Error:", err)
+    }
+  }
+  render () {
+   
+    <div className='body'>
+      <UserLogOut setUserInState={this.props.setUserInState }/>
         <img
         className="Img1"
         src="https://miro.medium.com/max/600/1*OFsc0SD55jhi8cjo7aCA4w.jpeg"
@@ -41,6 +77,5 @@ export default function Post() {
         alt=""
         />
     </div>
-    </body>
-  )
+  }
 }
