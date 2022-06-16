@@ -2,7 +2,7 @@ h1{
     position: absolute;
     height: 47px;
     left: 631px;
-    top: 30px;
+    top: 25px;
     
     font-family: 'Playfair Display';
     font-style: normal;
@@ -12,23 +12,14 @@ h1{
     color: #171717;
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-   
-  }
-
 .link{
     list-style: none;
     cursor:pointer;
-    align-items: center;
     justify-content: space-around;
-    width: 60%;
+    width: 95%;
     display: flex;
-    bottom: 100px;
-    text-decoration: none;
+    position: relative;
+    top: 120px;
     
 
     font-family: 'Playfair Display';
@@ -36,5 +27,9 @@ h1{
     font-weight: 600;
     font-size: 30px;
     line-height: 40px;
+}
+
+.sublink{
+    text-decoration: none;
     color: #1E1E1E;
 }
