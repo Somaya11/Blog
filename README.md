@@ -20,6 +20,8 @@ Blog about the lastest informtion in coding and ladies in Tech
 - JSX
 - HTML
 - CSS
+- Express
+- Node
 
 
 ## Features
