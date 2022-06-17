@@ -51,7 +51,7 @@ To do:
 - Adding Articles for How to create games and web apps
 
 ## Link to web app
-https://calm-stream-34760.herokuapp.com/
+https://inthloop30.herokuapp.com/
 
 ## Creator
 - Nayab (programer)
