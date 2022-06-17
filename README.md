@@ -22,6 +22,7 @@ Blog about the lastest informtion in coding and ladies in Tech
 - CSS
 - Express
 - Node
+- Mongoose
 
 
 ## Features
