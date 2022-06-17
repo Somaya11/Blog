@@ -1,50 +1,74 @@
-.Articles{
+.articleBody{
     position: absolute;
     width: 1480px;
-    height: 2000px;
+    height: 1000px;
     left: 20px;
     top: 247px;
 
     background: rgba(244, 244, 244, 0.8);
 }
 
-
-.Post{
-    padding-top: 50px;
-    margin: auto;
+.img{
+    margin-left:150px;
+    width:70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
 }
-
-.text{
-    font-size: 40px;
-    border: none;
-    padding: 50px;
-    width: 50vw;
-    background: rgba(244, 244, 244, 0.8);
     
-}
-
-.writeText{
-    font-size: 30px; 
-}
-
-.button{
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.upload{
-    cursor: pointer; 
-}
-
-.commentOne{
+.comment{
+    top:190%;
+    left: 33%;
     position: absolute;
-    left: 190px;
-    top: 2090px; 
-    width: 70vw;
-    
+    width:500px;
+    margin-bottom: 10px;
 }
 
-.Commentarea{
-    font-size: 30px;
-    padding-top: 10px;
+
+button {
+    font-size: 16px;
+    background-color: rgb(196, 182, 182);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 30px;
+   
+  }
+
+  .comment input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 151, 151)
+  }
+
+  .comment textarea{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 151, 151)
+}
+
+.posted-name{
+    margin-top: 40px;
+    margin-left:5px;
+    margin-bottom: 5px;
+}
+
+.postedComment{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 151, 151)
+}
+
+textarea::placeholder{
+    margin-top: 5px;
 }

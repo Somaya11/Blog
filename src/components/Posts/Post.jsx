@@ -2,22 +2,22 @@ import "./Post.css"
 
 export default function Post() {
   return (
-    <body className='body'>
-    <div>
+  
+    <div className='body'>
         <img
         className="Img1"
-        src="https://miro.medium.com/max/600/1*OFsc0SD55jhi8cjo7aCA4w.jpeg"
+        src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190820175612/Why-You-Should-Learn-To-Code.png"
         alt=""
         />
 
         <img
         className="Img2"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtxQBSXFdax4EQLqk95toHH0gHhNBLk6jiGUZK80tH3KNj9JShJcq8mG2dfvFP9fg2NQ&usqp=CAU"
+        src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202010/programming_language_learning__1200x768.jpeg?e38EqZq_OJNimIdNYBODShI4G2WYPkgX&size=770:433://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtxQBSXFdax4EQLqk95toHH0gHhNBLk6jiGUZK80tH3KNj9JShJcq8mG2dfvFP9fg2NQ&usqp=CAU"
         alt=""
         />
         <img
         className="Img3"
-        src="https://miro.medium.com/max/1400/1*ULnvjYy9sFmxnXLIgjRXLQ.png"
+        src="https://img.freepik.com/free-vector/female-programmist-woman-writing-code-content-manager-young-girl-working-laptop-vector-illustration-programmer-woman-software-computer-language-written-by-freelancer_80590-11194.jpg?w=2000"
         alt=""
         />
           <img
@@ -41,6 +41,5 @@ export default function Post() {
         alt=""
         />
     </div>
-    </body>
   )
 }
