@@ -34,6 +34,8 @@ List the ready features here:
 ![image](https://user-images.githubusercontent.com/98067630/174202157-72099b42-013e-4a16-ab73-499d9248b95d.png)
 ![image](https://user-images.githubusercontent.com/98067630/174202229-dbee972c-ad0b-404e-ba13-d677d23380b0.png)
 
+## ERD
+![image](https://user-images.githubusercontent.com/98067630/174324307-c01b6e4e-5df2-4853-acbd-c9cf9bfea0b6.png)
 
 ## Project Status
 Project is: _in progress_ 
